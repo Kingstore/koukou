@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/koukou.iml" filepath="$PROJECT_DIR$/koukou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/koukou_common/koukou_common.iml" filepath="$PROJECT_DIR$/koukou_common/koukou_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/koukou_manager/koukou_manager.iml" filepath="$PROJECT_DIR$/koukou_manager/koukou_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/koukou_manager/koukou_manager_dao/koukou_manager_dao.iml" filepath="$PROJECT_DIR$/koukou_manager/koukou_manager_dao/koukou_manager_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/koukou_manager/koukou_manager_interface/koukou_manager_interface.iml" filepath="$PROJECT_DIR$/koukou_manager/koukou_manager_interface/koukou_manager_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/koukou_manager/koukou_manager_pojo/koukou_manager_pojo.iml" filepath="$PROJECT_DIR$/koukou_manager/koukou_manager_pojo/koukou_manager_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/koukou_manager/koukou_manager_service/koukou_manager_service.iml" filepath="$PROJECT_DIR$/koukou_manager/koukou_manager_service/koukou_manager_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/koukou_manager/koukou_manager_web/koukou_manager_web.iml" filepath="$PROJECT_DIR$/koukou_manager/koukou_manager_web/koukou_manager_web.iml" />
+    </modules>
+  </component>
+</project>

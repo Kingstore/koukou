@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="koukou_manager_web:war exploded">
+    <output-path>$PROJECT_DIR$/koukou_manager/koukou_manager_web/target/koukou_manager_web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="koukou_manager_web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="koukou_manager_service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="koukou_manager_service" />
+          </element>
+          <element id="archive" name="koukou_manager_interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="koukou_manager_interface" />
+          </element>
+          <element id="archive" name="koukou_manager_pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="koukou_manager_pojo" />
+          </element>
+          <element id="archive" name="koukou_manager_dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="koukou_manager_dao" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/koukou_manager/koukou_manager_web/target/koukou_manager_web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="koukou_manager_web/web/Web" />
+    </root>
+  </artifact>
+</component>

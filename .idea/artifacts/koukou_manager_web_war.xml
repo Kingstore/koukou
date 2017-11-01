@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="koukou_manager_web:war">
+    <output-path>$PROJECT_DIR$/koukou_manager/koukou_manager_web/target</output-path>
+    <root id="archive" name="koukou_manager_web.war">
+      <element id="artifact" artifact-name="koukou_manager_web:war exploded" />
+    </root>
+  </artifact>
+</component>

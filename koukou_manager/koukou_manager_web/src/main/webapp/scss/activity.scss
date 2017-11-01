@@ -1,0 +1,252 @@
+@import "commons";
+@import "login-head";
+@import "login-foot";
+body {
+    overflow-x: hidden;
+}
+#top{
+    .top-con{
+        width: 1200px;
+    }
+}
+.animate1{
+    @keyframes animate1{
+        0%{transform: skewY(0)}
+        50%{transform: skewY(20deg)}
+        100%{transform: skewY(0)}
+    }
+    img{
+        animation: animate1 1s cubic-bezier(.55,1.47,.52,-0.24);
+    }
+}
+
+.animate0{
+    transition:all 0.5s cubic-bezier(.55,1.51,.56,-0.4);
+    &:hover{
+        transform: scale(0.8);
+    }
+}
+
+#headbg{
+    width: 100%;
+    height: 95px;
+    .header{
+        width: 1200px;
+        height: 95px;
+        margin: 0 auto;
+        overflow: hidden;
+        .logo{
+            width: 345px;
+            height: 84px;
+            padding-top: 11px;
+            float: left;
+            a{
+                float: left;
+                width: 140px;
+                height: 72px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        
+        .search{
+            width: 468px;
+            height: 40px;
+            float: left;
+            margin: 38px 0 0 0;
+            form{
+                .secbox{
+                    float: left;
+                    width: 466px;
+                    height: 38px;
+                    padding: 1px;
+                    border: 1px solid #a48e5c;
+                    #sec-ipt{
+                        width: 400px;
+                        height: 38px;
+                        border: 0;
+                        padding: 0 3px;
+                        float: left;
+                        color: #ccc;
+                    }
+                    #sec-btn{
+                        width: 45px;
+                        height: 36px;
+                        float: right;
+                        margin: 1px 1px 1px 0;
+                        background: url(../img/index_bg.png) no-repeat -438px 0;
+                        border: 0;
+                        cursor: pointer;
+                    }
+                }
+                
+            }
+        }
+        .shopcar{
+            width: 200px;
+            height: 37px;
+            margin: 42px 0 0 0;
+            float: right;
+            .shopcar-con{
+                width: 180px;  
+                padding-left: 20px; 
+                height:37px;
+                background: url(../img/index_bg.png) no-repeat -22px 0;
+                .shopcar-icon{
+                    float: left;
+                    width: 27px;
+                    height: 24px;
+                    margin: 5px 6px 0  0;
+                    background: url(../img/index_bg.png) no-repeat -127px -165px;
+                }
+                a{
+                    color: #141414;
+                    font-size: 14px;
+                    line-height: 36px;
+                    float: left;
+                    span{
+                        color: $maincolor;
+                    }
+                }
+                .shopcar-more{
+                    float: left;
+                    margin:15px 0 0 20px;
+                    width: 5px;
+                    height: 8px;
+                    background: url(../img/index_bg.png) no-repeat -230px 0;
+                }
+            }
+        }
+    }
+}
+
+#main-bg{
+    width: 100%;
+    height: 6391px;
+    .main-box{
+        width: 1920px;
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
+        .main-tit{
+            height: 745px;
+            width: 100%;
+            background: url(../img/bg_01.jpg) no-repeat;
+            background-size: cover;
+            position: relative;
+            .text-pic{
+                position: absolute;
+                right: 18%;
+                top: 10%;
+            }
+        }
+        .goods-box{
+            height: 972px;
+            width: 100%;
+            background: url(../img/bg_02.jpg) no-repeat;
+            background-size: cover;
+            .goods-con{
+                width: 1020px;
+                height: 896px;
+                margin: 0 auto;
+                .goods-top{
+                    height: 353px;
+                    width: 690px;
+                    margin-left: 300px;
+                    a{
+                        img{
+                            margin: 40px 0 0 340px;
+                        }
+                    }
+                }
+                .goods-bot{
+                    width: 660px;
+                    height: 353px;
+                    margin-top: 190px;
+                    a{
+                        img{
+                            
+                        }
+                    }
+                }
+            }
+        }
+        
+        .main-sf{
+            background: url(../img/bg_03.jpg) no-repeat;
+            height: 923px;
+            .sf{
+                height: 956px;
+            }
+        }
+        .main-rs{
+            background: url(../img/bg_04.jpg) no-repeat;
+            height: 926px;
+            .rs{
+                height: 926px; 
+            }
+        }
+        .main-fs{
+            background: url(../img/bg_05.jpg) no-repeat;
+            height: 1009px;
+            .fs{
+                height:1009px;
+                .fs-top{
+                    a{
+                        img{
+                            margin: 50px 0 0 340px;
+                        }
+                    }
+                }
+                .fs-bot{
+                    margin-top: 310px;
+                }
+            }
+        }
+        
+        .main-eyebrow{
+            height: 996px;
+            background: url(../img/bg_06.jpg) no-repeat;
+            .eyebrow{
+                height: 856px;
+                .eyebrow-top{
+                    a{
+                        img{
+                            margin: 0 0 0 340px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .main-mouth{
+            height: 820px;
+            background: url(../img/bg_07.jpg) no-repeat;
+            position: relative;
+           .mouth{
+               .mouth-top{
+                   margin-left:280px;
+                   a{
+                       img{
+                           margin: 100px 0 0 340px;
+                       }
+                   }
+               }
+           }
+           
+           .scroll-up{
+               width: 200px;
+               height: 200px;
+//             background: #fff;
+               position: absolute;
+               left: 50%;
+               margin-left: -100px;
+               bottom: 100px;
+           }
+        }
+        
+    }
+}
+
